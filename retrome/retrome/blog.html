@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Retrome Blog</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="index.html" class="logo-link">
+        <img src="assets/A_pixel_art_digital_graphic_displays_the_word_RET.png" alt="Retrome Logo" height="100"/>
+      </a>
+    </div>
+    <div class="nav-center">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="games.html">Games</a>
+      <a href="about.html">About</a>
+      <a href="skins.html">Skins</a>
+    </div>
+    <div class="nav-right">
+      <input type="text" placeholder="Search..." class="search-bar"/>
+    </div>
+  </nav>
+
+  <main>
+    <h1 style="margin-top: 6rem;">Retrome Dev Blog</h1>
+    <p>News, updates, and thoughts from behind the pixels.</p>
+
+    <section class="blog-post">
+      <h2>🎮 Launch Day!</h2>
+      <p><em>Posted on May 3, 2025</em></p>
+      <p>Retrome is officially live! We're so excited to bring our pixelated vision to life and share it with you all. Stay tuned for new games, skins, and more.</p>
+    </section>
+
+    <section class="blog-post">
+      <h2>🛠 Devlog #1 – Building the Retro Engine</h2>
+      <p><em>Posted on April 20, 2025</em></p>
+      <p>We’ve been crafting the core engine for our games with love for the 8-bit era. Here’s a peek at our tools, pixel art workflow, and inspirations.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Retrome. All pixels handcrafted.</p>
+  </footer>
+<script>
+  window.onload = function() {
+    const savedSkin = localStorage.getItem('retromeSkin');
+    if (savedSkin) {
+      document.body.className = 'skin-' + savedSkin;
+    }
+  };
+</script>
+</body>
+</html>

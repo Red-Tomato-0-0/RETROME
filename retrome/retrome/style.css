@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+main {
+  min-height: 200vh;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-image: url('/retrome/assets/A_pixel_art_digital_illustration_depicts_the_inter.png');
+  background-blend-mode: overlay 50%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+body.skin-arcade {
+  background-image: url('/retrome/assets/A_pixel_art_digital_illustration_depicts_the_inter.png');
+}
+body.skin-sunset {
+  background-image: url('/retrome/assets/A_pixel_art_digital_illustration_depicts_a_sunset_.png');
+}
+body.skin-city {
+  background-image: url('/retrome/assets/A_pixel_art_cityscape_digital_illustration_depicts.png');
+}
+
+header {
+  background-image: url(/retrome/assets/A_pixel_art_digital_illustration_showcases_a_retro.png);
+  background-blend-mode: overlay 75%;
+  background-size: cover;
+  background-position: center 115%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 10rem 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #111;
+  border: 3px solid orange;
+  font-family: 'Press Start 2P', cursive;
+  margin-bottom: 20px;
+}
+
+.nav-left img {
+  height: 150px;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.nav-center {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-center a {
+  color: orange;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+  font-size: 10px;
+}
+
+.nav-center a:hover {
+  border: 2px solid orange;
+  background-color: #222;
+}
+
+.nav-right .search-bar {
+  padding: 5px;
+  border: 2px solid orange;
+  background-color: #000;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  width: 150px;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0.5rem 0;
+}
+
+header p {
+  font-size: 12px;
+  margin-top: 0.5rem;
+}
+
+.game-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 2rem;
+}
+
+.game-card {
+  background: #222;
+  border: 4px solid #ffcc00;
+  width: 220px;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #ffcc00;
+  transition: transform 0.2s ease-in-out;
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+}
+
+.game-card img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #fff;
+  margin-bottom: 1rem;
+}
+
+.game-card a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: #000000e3;
+  background: #ffcc00;
+  text-decoration: none;
+  font-size: 10px;
+  border: 2px solid #000;
+}
+
+footer {
+  background: linear-gradient(90deg, #ffd500, #ff6600, #ff0000);;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 10px;
+}

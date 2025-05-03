@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Retrome Games</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="index.html" class="logo-link">
+        <img src="assets/A_pixel_art_digital_graphic_displays_the_word_RET.png" alt="Retrome Logo" height="100"/>
+      </a>
+    </div>
+    <div class="nav-center">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="games.html">Games</a>
+      <a href="about.html">About</a>
+      <a href="skins.html">Skins</a>
+    </div>
+    <div class="nav-right">
+      <input type="text" placeholder="Search..." class="search-bar"/>
+    </div>
+  </nav>
+
+  <main>
+    <h1 style="margin-top: 6rem;">Retrome Game Collection</h1>
+    <p>Explore and play our handcrafted pixel art games!</p>
+
+    <section class="game-grid">
+      <div class="game-card">
+        <img src="assets/game1-thumb.png" alt="Game 1 Thumbnail"/>
+        <a href="games/game1/index.html">Play Game 1</a>
+      </div>
+
+      <div class="game-card">
+        <img src="assets/game2-thumb.png" alt="Game 2 Thumbnail"/>
+        <a href="games/game2/index.html">Play Game 2</a>
+      </div>
+      
+      <!-- Add more games here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Retrome. All pixels handcrafted.</p>
+  </footer>
+<script>
+  window.onload = function() {
+    const savedSkin = localStorage.getItem('retromeSkin');
+    if (savedSkin) {
+      document.body.className = 'skin-' + savedSkin;
+    }
+  };
+</script>
+</body>
+</html>

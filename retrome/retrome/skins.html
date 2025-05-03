@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Retrome Skins</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .skin-selector {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .skin-options {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .skin-options img {
+      width: 120px;
+      height: 80px;
+      object-fit: cover;
+      border: 4px solid #222;
+      border-radius: 6px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    .skin-options img:hover {
+      transform: scale(1.05);
+      border-color: #ffcc00;
+    }
+
+    .skin-option {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .skin-option span {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 0.75rem;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="index.html" class="logo-link">
+        <img src="assets/A_pixel_art_digital_graphic_displays_the_word_RET.png" alt="Retrome Logo" height="100"/>
+      </a>
+    </div>
+    <div class="nav-center">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="games.html">Games</a>
+      <a href="about.html">About</a>
+      <a href="skins.html">Skins</a>
+    </div>
+    <div class="nav-right">
+      <input type="text" placeholder="Search..." class="search-bar"/>
+    </div>
+  </nav>
+
+  <main>
+    <h1 style="margin-top: 6rem;">Choose Your Retrome Skin</h1>
+    <p>Select a background skin to customize your Retrome experience!</p>
+    <section class="skin-selector">
+      <div class="skin-options">
+        <div class="skin-option">
+          <span>Arcade</span>
+          <img src="/retrome/assets/A_pixel_art_digital_illustration_depicts_the_inter.png" alt="Arcade" onclick="setSkin('arcade')" />
+        </div>
+        <div class="skin-option">
+          <span>Sunset</span>
+          <img src="/retrome/assets/A_pixel_art_digital_illustration_depicts_a_sunset_.png" alt="Sunset" onclick="setSkin('sunset')" />
+        </div>
+        <div class="skin-option">
+          <span>City</span>
+          <img src="/retrome/assets/A_pixel_art_cityscape_digital_illustration_depicts.png" alt="City" onclick="setSkin('city')" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Retrome. Powered by dreams and pixels</p>
+  </footer>
+
+  <script src="skins.js"></script>
+</body>
+</html>

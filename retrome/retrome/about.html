@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Retrome</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="index.html" class="logo-link">
+        <img src="assets/A_pixel_art_digital_graphic_displays_the_word_RET.png" alt="Retrome Logo" height="80"/>
+      </a>
+    </div>
+    <div class="nav-center">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="games.html">Games</a>
+      <a href="about.html">About</a>
+      <a href="skins.html">Skins</a>
+    </div>
+    <div class="nav-right">
+        <input type="text" placeholder="Search..." class="search-bar"/>
+      </div>
+  </nav>
+
+  <main>
+    <h1 style="margin-top: 6rem">About Retrome</h1>
+    <p>Retrome is your home for pixel art games, skins, and creative retro-style fun. We’re building a nostalgic world with new adventures. 🎮</p>
+    <p>Follow us for updates and behind-the-scenes at <a href="https://x.com/RETROME_DEV" target="_blank">@RETROME_DEV</a></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Retrome. All pixels handcrafted.</p>
+  </footer>
+</body>
+<script>
+  window.onload = function() {
+    const savedSkin = localStorage.getItem('retromeSkin');
+    if (savedSkin) {
+      document.body.className = 'skin-' + savedSkin;
+    }
+  };
+</script>
+</html>
