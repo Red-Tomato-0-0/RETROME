@@ -6,7 +6,7 @@ main {
 
 body {
   font-family: 'Press Start 2P', cursive;
-  background-image: url('/retrome/assets/A_pixel_art_digital_illustration_depicts_the_inter.png');
+  background-image: url('assets/A_pixel_art_digital_illustration_depicts_the_inter.png');
   background-blend-mode: overlay 50%;
   background-size: cover;
   background-position: center;
@@ -17,13 +17,13 @@ body {
 }
 
 body.skin-arcade {
-  background-image: url('/retrome/assets/A_pixel_art_digital_illustration_depicts_the_inter.png');
+  background-image: url('assets/A_pixel_art_digital_illustration_depicts_the_inter.png');
 }
 body.skin-sunset {
-  background-image: url('/retrome/assets/A_pixel_art_digital_illustration_depicts_a_sunset_.png');
+  background-image: url('assets/A_pixel_art_digital_illustration_depicts_a_sunset_.png');
 }
 body.skin-city {
-  background-image: url('/retrome/assets/A_pixel_art_cityscape_digital_illustration_depicts.png');
+  background-image: url('assets/A_pixel_art_cityscape_digital_illustration_depicts.png');
 }
 
 header {
