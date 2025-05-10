@@ -390,15 +390,3 @@ footer {
   border: 1px solid #3300ff;
 }
 
-.image-blog{
-  position: relative;
-}
-
-.floating-blog{
-  position: absolute;
-  top: 20px;
-  left: 393px;
-  height: 200px;
-  width: 584px;
-  border: 1px solid #3300ff;
-}
