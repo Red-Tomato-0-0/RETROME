@@ -7,7 +7,6 @@ main {
 body {
   font-family: 'Press Start 2P', cursive;
   background-image: url('assets/A_pixel_art_digital_illustration_depicts_the_inter.png');
-  background-blend-mode: overlay 50%;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
