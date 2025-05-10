@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Retrome Blog</title>
   <link rel="stylesheet" href="style.css"/>
+  <script src="skins.js"></script>
 </head>
 <body>
   <nav class="navbar">
@@ -29,39 +30,33 @@
     <div class="blog-scroll">
       <h1>Retrome Blog</h1>
       <p style="margin-top: -20px;">Announcements and News</p>
-      <div class="blog-article">
+        <div class="blog-article">
           <h4>10.05.2025 - New Update</h4>
           <p>Fixing, upgrading, updating Retrome!</p>
         </div>
-      <div class="blog-article">
-        <h4>05.05.2025 - New Update</h4>
-        <p>We just added a new game to the site!<br>
+        <div class="blog-article">
+          <h4>05.05.2025 - New Update</h4>
+          <p>We just added a new game to the site!<br>
           Retrome - Tic Tac Toe is now available to play!<br>
-          Check it out in <a style="text-decoration: none;" href="https://retromegames.com/games.html" target="_blank">Games</a> section.
-        </p>
-      </div>
-      <div class="blog-article">
-        <h4>03.05.2025 - Day 3</h4>
-        <p>Creation of Retrome website - available.</p>
-      </div>
-      <div class="blog-article">
-        <h4>03.05.2025 - Day 1</h4>
-        <p>Beginning of the creation of Retrome website - soon available.</p>
-      </div>
-      <!-- Add more .blog-article divs -->
+          Check it out in <a style="text-decoration: none;" href="https://retromegames.com/games.html" target="_blank">Games</a> section.</p>
+        </div>
+        <div class="blog-article">
+          <h4>03.05.2025 - Day 3</h4>
+          <p>Creation of Retrome website - available.</p>
+        </div>
+        <div class="blog-article">
+          <h4>03.05.2025 - Day 1</h4>
+          <p>Beginning of the creation of Retrome website - soon available.</p>
+        </div>
+     <!-- Add more .blog-article divs -->
     </div>
+      <div class="blog-image">
+        <img src="assets/bluebackground.png" class="floating-blog" alt="image"/>
+      </div>
   </main>
 
   <footer>
     <p>&copy; 2025 Retrome. All pixels handcrafted.</p>
   </footer>
-<script>
-  window.onload = function() {
-    const savedSkin = localStorage.getItem('retromeSkin');
-    if (savedSkin) {
-      document.body.className = 'skin-' + savedSkin;
-    }
-  };
-</script>
 </body>
 </html>
