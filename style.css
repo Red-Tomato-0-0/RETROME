@@ -6,7 +6,7 @@ main {
 
 body {
   font-family: 'Press Start 2P', cursive;
-  background-image: url('assets/A_pixel_art_digital_illustration_depicts_the_inter.png');
+  background: url('assets/A_pixel_art_digital_illustration_depicts_the_inter.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -27,7 +27,6 @@ body.skin-city {
 
 header {
   background-image: url('assets/A_pixel_art_digital_illustration_showcases_a_retro.png');
-  background-blend-mode: overlay 75%;
   background-size: cover;
   background-position: center 115%;
   background-repeat: no-repeat;
@@ -296,6 +295,18 @@ figure.skins-thumbnail a{
   color: inherit;
 }
 
+.image-box{
+  position: relative;
+}
+.floating {
+  position: absolute;
+  top: 20px;
+  left: -19px;
+  height: 200px;
+  width: 578px;
+  border: 1px solid #3300ff;
+}
+
 .game-grid {
   display: flex;
   justify-content: center;
@@ -378,15 +389,17 @@ footer {
   color: #3300ff;
 }
 
-.image-box{
+.blog-image{
   position: relative;
-}
-.floating {
-  position: absolute;
-  top: 20px;
-  left: -19px;
-  height: 200px;
-  width: 578px;
-  border: 1px solid #3300ff;
+  display: block;
+  margin-top: 20px;
+  margin-right: 585px;
 }
 
+.floating-blog{
+  position: absolute;
+  height: 200px;
+  width: 583px;
+  border: 2px solid #3300ff;
+  border-radius: 2px;
+}
