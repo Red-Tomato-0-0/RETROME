@@ -373,6 +373,16 @@ figure.skins-thumbnail a{
   border-radius: 8px;
 }
 
+.floating-game{
+  position: absolute;
+  top: 470px;
+  left: -1px;
+  height: 200px;
+  width: 600px;
+  border: 1px solid #3300ff;
+}
+
+
 footer {
   background: linear-gradient(90deg, #ffd500, #ff6600, #ff0000);;
   color: white;
