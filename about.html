@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>About Retrome</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="skins.js"></script>
 </head>
 <body>
   <nav class="navbar">
@@ -26,21 +27,23 @@
   </nav>
 
   <main>
-    <h1 style="margin-top: 6rem">About Retrome</h1>
-    <p>Retrome is your home for pixel art games, skins, and creative retro-style fun. We’re building a nostalgic world with new adventures. 🎮</p>
-    <p>Follow us for updates and behind-the-scenes at <a href="https://x.com/RETROME_DEV" target="_blank">@RETROME_DEV</a></p>
+    <div class="about-section">
+      <h1> About Retrome</h1>
+        <div class="about-links">
+          <h2>Welcome to  Retrome !</h2>
+          <h3>Your retro-inspired game portal </h3>
+          <p>Follow us for updates and announcements on <a href="https://x.com/RETROME_DEV" target="_blank">@RETROME_DEV</a> on Twitter.</p>
+          <p>Follow us for updates and announcements on <a href="https://www.tiktok.com/@retrome_dev?is_from_webapp=1&sender_device=pc" target="_blank">@retrome_dev</a> on Tiktok.</p>
+          <p>Follow us for updates and announcements on <a href="https://www.youtube.com/channel/UC4hCWg8NbmjLUGn_ySrh4gw" target="_blank">@RETROME_DEV</a> on Youtube.</p>
+        </div>
+        <div class="about-image">
+          <img src="assets/bluebackground.png" class="floating-about" alt="image"/>
+        </div>
+    </div>
   </main>
 
   <footer>
     <p>&copy; 2025 Retrome. All pixels handcrafted.</p>
   </footer>
 </body>
-<script>
-  window.onload = function() {
-    const savedSkin = localStorage.getItem('retromeSkin');
-    if (savedSkin) {
-      document.body.className = 'skin-' + savedSkin;
-    }
-  };
-</script>
 </html>
