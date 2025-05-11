@@ -43,7 +43,7 @@ body.skin-snow {
   background-image: url('assets/snow.png');
 }
 body.skin-sky {
-  background-image: url(assets/sky.png);
+  background-image: url('assets/sky.png');
 }
 body.skin-spring {
   background-image: url('assets/spring.png');
