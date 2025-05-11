@@ -24,6 +24,33 @@ body.skin-sunset {
 body.skin-city {
   background-image: url('assets/cityscape.png');
 }
+body.skin-ocean {
+  background-image: url('assets/ocean.png');
+}
+body.skin-candy {
+  background-image: url('assets/candy_world.png');
+}
+body.skin-bar {
+  background-image: url('assets/bar.png');
+}
+body.skin-volcano {
+  background-image: url('assets/volcano.png');
+}
+body.skin-forest {
+  background-image: url('assets/forest.png');
+}
+body.skin-snow {
+  background-image: url('assets/snow.png');
+}
+body.skin-sky {
+  background-image: url(assets/sky.png);
+}
+body.skin-spring {
+  background-image: url('assets/spring.png');
+}
+body.skin-space {
+  background-image: url('assets/spaceship.png');
+}
 
 header {
   background-image: url('assets/A_pixel_art_digital_illustration_showcases_a_retro.png');
