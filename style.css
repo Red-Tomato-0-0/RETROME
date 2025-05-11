@@ -456,6 +456,11 @@ figure.skins-thumbnail a{
   border-radius: 4px;
 }
 
+.about-links a{
+  text-decoration: none;
+  color: #ffd500;
+}
+
 .about-links h2{
   align-items: center;
   font-size: 20px;
@@ -473,12 +478,13 @@ figure.skins-thumbnail a{
   align-items: center;
   font-size: 12px;
   color: #3300ff;
-  padding: 10px;
+  padding: 2px;
+  border: 1px solid #ffd500;
 }
 
 .floating-about{
   position: absolute;
-  top: 550px;
+  top: 544px;
   left: 0px;
   height: 200px;
   width: 570px;

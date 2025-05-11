@@ -7,8 +7,15 @@
   <link rel="stylesheet" href="style.css"/>
   <style>
     .skin-selector {
+      position: relative;
       padding: 2rem;
       text-align: center;
+      background-color: transparent;
+      height: 580px;
+      width: 550px;
+      margin: auto;
+      border: 2px solid #3300ff;
+      border-radius: 2px;
     }
 
     .skin-options {
@@ -44,8 +51,17 @@
     .skin-option span {
       font-family: 'Press Start 2P', cursive;
       font-size: 0.75rem;
-      color: #fff;
+      color: #ffcc00;
       margin-bottom: 0.5rem;
+    }
+    .skin-icon {
+      position: absolute;
+      top: 670px;
+      left: -2px;
+      width: 615px;
+      height: 200px;
+      border: 2px solid #ffcc00;
+      border-radius: 2px;
     }
   </style>
 </head>
@@ -69,9 +85,9 @@
   </nav>
 
   <main>
-    <h1 style="margin-top: 6rem;">Choose Your Retrome Skin</h1>
-    <p>Select a background skin to customize your Retrome experience!</p>
     <section class="skin-selector">
+      <h1 style="margin-top: -10px; color: #ffcc00;">Retrome Skin</h1>
+      <p style="color: #ffcc00;">Choose a background skin to customize your Retrome experience!</p>
       <div class="skin-options">
         <div class="skin-option">
           <span>Arcade</span>
@@ -85,7 +101,45 @@
           <span>City</span>
           <img src="assets/cityscape.png" alt="City" onclick="setSkin('city')" />
         </div>
-      </div>
+        <div class="skin-option">
+          <span>City</span>
+          <img src="assets/cityscape.png" alt="City" onclick="setSkin('city')" />
+        </div>
+        <div class="skin-option">
+          <span>City</span>
+          <img src="assets/cityscape.png" alt="City" onclick="setSkin('city')" />
+        </div>
+        <div class="skin-option">
+          <span>City</span>
+          <img src="assets/cityscape.png" alt="City" onclick="setSkin('city')" />
+        </div>
+        <div class="skin-option">
+          <span>City</span>
+          <img src="assets/cityscape.png" alt="City" onclick="setSkin('city')" />
+        </div>
+        <div class="skin-option">
+          <span>City</span>
+          <img src="assets/cityscape.png" alt="City" onclick="setSkin('city')" />
+        </div>
+        <div class="skin-option">
+          <span>City</span>
+          <img src="assets/cityscape.png" alt="City" onclick="setSkin('city')" />
+        </div>
+        <div class="skin-option">
+          <span>City</span>
+          <img src="assets/cityscape.png" alt="City" onclick="setSkin('city')" />
+        </div>
+        <div class="skin-option">
+          <span>City</span>
+          <img src="assets/cityscape.png" alt="City" onclick="setSkin('city')" />
+        </div>
+        <div class="skin-option">
+          <span>City</span>
+          <img src="assets/cityscape.png" alt="City" onclick="setSkin('city')" />
+        </div>
+        <div class="skin-icon">
+          <background></background>
+        </div>
     </section>
   </main>
 
