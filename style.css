@@ -314,7 +314,7 @@ figure.skins-thumbnail a{
   flex-wrap: wrap;
   gap: 0px;
   width: 600px;
-  height: 434px;
+  height: 545px;
   margin: auto;
   background-color: #4d88ff;
   border: 1px solid #3300ff;
@@ -375,28 +375,19 @@ figure.skins-thumbnail a{
 
 .floating-game{
   position: absolute;
-  top: 470px;
+  top: 585px;
   left: -1px;
   height: 200px;
   width: 600px;
   border: 1px solid #3300ff;
 }
 
-
-footer {
-  background: linear-gradient(90deg, #ffd500, #ff6600, #ff0000);
-  color: white;
-  padding: 1rem;
-  margin-top: 2rem;
-  font-size: 10px;
-}
-
 .blog-scroll {
   height: 500px;  
-  max-width: 550px;              /* Set height to limit view */
+  max-width: 550px;              
   width: 90%;
   margin: 0 auto;
-  overflow-y: auto;               /* Enables vertical scroll */
+  overflow-y: auto;               
   background: #e6f0ff;
   border: 2px solid #4d88ff;
   padding: 1rem;
@@ -438,4 +429,12 @@ footer {
   width: 583px;
   border: 2px solid #3300ff;
   border-radius: 2px;
+}
+
+footer {
+  background: linear-gradient(90deg, #ffd500, #ff6600, #ff0000);;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 10px;
 }
