@@ -55,18 +55,17 @@ body.skin-space {
 header {
   background-image: url('assets/A_pixel_art_digital_illustration_showcases_a_retro.png');
   background-size: cover;
-  background-position: center 120%;
+  background-position: center 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #ffd500;
   padding: 10rem 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-  min-width: 582px;
+  text-align: center;
 }
 
 
 .navbar {
-  min-width:  600px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,6 +74,7 @@ header {
   border: 3px solid orange;
   font-family: 'Press Start 2P', cursive;
   margin-bottom: 20px;
+  min-width: 600px;
 }
 
 .nav-left img {
@@ -414,7 +414,7 @@ figure.skins-thumbnail a{
 .blog-scroll {
   height: 500px;  
   max-width: 550px;              
-  width: 90%;
+  width: 600px;
   margin: 0 auto;
   overflow-y: auto;               
   background: #e6f0ff;
@@ -528,5 +528,4 @@ footer {
   margin-top: 2rem;
   font-size: 10px;
   bottom: 0px;
-  min-width: 620px;
 }
