@@ -61,10 +61,12 @@ header {
   color: #ffd500;
   padding: 10rem 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  min-width: 582px;
 }
 
 
 .navbar {
+  min-width:  600px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -107,7 +109,7 @@ header {
   color: white;
   font-family: 'Press Start 2P', cursive;
   font-size: 10px;
-  width: 150px;
+  width: 100%;
 }
 
 header h1 {
@@ -525,4 +527,6 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
   font-size: 10px;
+  bottom: 0px;
+  min-width: 620px;
 }
