@@ -13,6 +13,7 @@ body {
   color: white;
   margin: 0;
   text-align: center;
+  min-width: 700px;
 }
 
 body.skin-arcade {
@@ -62,6 +63,7 @@ header {
   padding: 10rem 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   text-align: center;
+  min-width: 582px;
 }
 
 
@@ -528,4 +530,5 @@ footer {
   margin-top: 2rem;
   font-size: 10px;
   bottom: 0px;
+  min-width: 614px;
 }
